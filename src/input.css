@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tw-top-menu-item {
+    @apply cursor-pointer hover:text-gray-800 py-1 relative after:absolute after:bottom-0 hover:after:left-0 hover:after:h-0.5 hover:after:w-full hover:after:bg-light-coffee transition-all after:transition-all after:ease-in-out after:duration-500 hover:font-semibold
+}
+
+.tw-icon {
+    @apply w-5 h-5 inline-block
+}
+
+.tw-badge-circle {
+    @apply text-xs text-center rounded-full px-2 flex items-center py-1
+}
