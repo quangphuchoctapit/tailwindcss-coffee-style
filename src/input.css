@@ -4,11 +4,11 @@
 @tailwind utilities;
 
 .tw-top-menu-item {
-    @apply cursor-pointer lg:hover:text-gray-800 py-1 relative lg:after:absolute lg:after:bottom-0 lg:hover:after:left-0 lg:hover:after:h-0.5 lg:hover:after:w-full hover:after:bg-light-coffee lg:transition-all lg:after:transition-all lg:after:ease-in-out lg:after:duration-500 hover:font-semibold;
+    @apply cursor-pointer lg:hover:text-gray-800 py-1 relative lg:after:absolute lg:after:bottom-0 lg:hover:after:left-0 lg:hover:after:h-0.5 lg:hover:after:w-full hover:after:bg-coffee-200 lg:transition-all lg:after:transition-all lg:after:ease-in-out lg:after:duration-500 hover:font-semibold;
 }
 
 .tw-top-menu-item-active {
-    @apply cursor-pointer text-gray-800 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-light-coffee font-semibold;
+    @apply cursor-pointer text-gray-800 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5  after:bg-coffee-200 font-semibold;
 }
 
 .tw-icon {
@@ -21,4 +21,14 @@
 
 .tw-top-menu-expanded {
     @apply absolute top-10 bg-white z-10 text-center w-full animate-slide-down
+}
+
+.tw-subheadline {
+    @apply  mb-4 flex flex-row justify-center items-center;
+}
+.tw-subheadline-deco-line {
+    @apply    h-px w-8 bg-gray-700 lg:mx-3 mx-1;
+}
+.tw-subheadline-label {
+    @apply  uppercase mx-2 text-gray-500 font-medium lg:text-[12px] text-[10px] text-center;
 }
