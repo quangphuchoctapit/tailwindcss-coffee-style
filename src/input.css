@@ -31,8 +31,16 @@
     @apply h-px w-8 bg-gray-700 lg:mx-3 mx-1;
 }
 
+.tw-subheadline-deco-line-2 {
+    @apply h-px w-8 bg-gray-300 lg:mx-3 mx-1;
+}
+
 .tw-subheadline-label {
     @apply uppercase mx-2 text-gray-500 font-medium lg:text-[12px] text-[10px] text-center;
+}
+
+.tw-subheadline-label-2 {
+    @apply uppercase mx-2 text-gray-300 font-semibold lg:text-[20px] text-[16px] text-center;
 }
 
 .tw-product-card {
@@ -52,7 +60,7 @@
 }
 
 .btn {
-    @apply text-center uppercase text-sm py-6 w-[100%] cursor-pointer font-semibold border rounded;
+    @apply text-center uppercase py-6 cursor-pointer font-semibold border rounded;
 }
 
 .tw-text-sale {
