@@ -39,8 +39,16 @@
     @apply h-[320px] md:h-[540px] lg:mb-24 mb-32;
 }
 
+.tw-product-card-2 {
+    @apply h-[240px] sm:h-[340px] lg:mb-24 mb-32;
+}
+
 .tw-button-card {
     @apply bg-white text-gray-950 hover:bg-gray-100 uppercase text-sm py-6 w-[80%] cursor-pointer font-semibold border rounded;
+}
+
+.btn {
+    @apply text-center uppercase text-sm py-6 w-[100%] cursor-pointer font-semibold border rounded;
 }
 
 .tw-text-sale {
