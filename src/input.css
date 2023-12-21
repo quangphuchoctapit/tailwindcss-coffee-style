@@ -74,3 +74,7 @@
 .tw-text-sale-before {
     @apply text-gray-500 text-xs md:text-sm line-through;
 }
+
+.tw-text-hover-coffee {
+    @apply hover:text-coffee-500 cursor-pointer
+}
